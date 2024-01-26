@@ -1,6 +1,11 @@
 {
   "name": "pallets/flask",
   "image": "mcr.microsoft.com/devcontainers/python:3",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+  },
   "customizations": {
     "vscode": {
       "settings": {
